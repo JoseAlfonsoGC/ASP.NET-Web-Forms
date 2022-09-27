@@ -10,6 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <asp:Panel ID="pnlDatoAlumno" runat="server">
+            <div>
+                <asp:Label ID="Label1" runat="server" Text="Nombre alumno"></asp:Label>
+                <asp:TextBox ID="txtNombreBus" runat="server"></asp:TextBox>
+                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="btnBuscar_Click"/>
+            </div>
+            <br />
             <asp:GridView ID="gvdAlumnos" runat="server" AutoGenerateColumns="false" DataKeyNames="Clave alumno" OnRowDeleting="gvdAlumnos_RowDeleting">
                 <Columns>
                     <asp:BoundField DataField="Clave alumno" HeaderText="Clave alumno" />
@@ -27,6 +33,9 @@
                 </Columns>
             </asp:GridView>
             <asp:Button ID="btnNuevo" runat="server" OnClick="btnNuevo_Click" Text="Nuevo Alumno" />
+            <asp:Button ID="btnGenerarPdf" runat="server" Text="Descargar PDF" OnClick="btnGenerarPdf_Click"/>
+            <asp:Button ID="btnGenerarExcel" runat="server" Text="Descargar Excel" OnClick="btnGenerarExcel_Click"/>
+            <asp:Button ID="btnCorreo" runat="server" Text="Enviar Correo" OnClick="btnCorreo_Click"/>
         </asp:Panel>
         <asp:Panel ID="pnlAltaAlumno" runat="server" Visible="false">
             <div>

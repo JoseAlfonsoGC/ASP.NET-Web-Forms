@@ -26,6 +26,16 @@ namespace _02_00_Uso_de_BaseDeDatos_en_Aplicacion
                     gvdAlumnos.DataSource = cmd.ExecuteReader();
                     gvdAlumnos.DataBind();
                 }
+                /*tabla que se uso y la base de datos esta en el archivo (web.config) en  connectionStrings
+                 create table alumno(
+	                id int identity(1,1),
+	                nombre varchar(50),
+	                ap_paterno varchar(50),
+	                ap_materno varchar(50),
+	                email varchar(50)
+	                primary key(id) 
+                 );
+                 */
                 /* procedimiento almacenado ocupado en la consulta anterior
                  create procedure SPSalumnos
                 as 

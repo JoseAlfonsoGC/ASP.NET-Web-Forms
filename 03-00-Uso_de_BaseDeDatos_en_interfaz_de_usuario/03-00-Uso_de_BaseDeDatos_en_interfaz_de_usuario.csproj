@@ -8,16 +8,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D6E51D94-4D41-4815-AD5F-599A8D251848}</ProjectGuid>
+    <ProjectGuid>{F9218553-CF5C-410E-82C7-550654F424A8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02_00_Uso_de_BaseDeDatos_en_Aplicacion</RootNamespace>
-    <AssemblyName>02-00-Uso_de_BaseDeDatos_en_Aplicacion</AssemblyName>
+    <RootNamespace>_03_00_Uso_de_BaseDeDatos_en_interfaz_de_usuario</RootNamespace>
+    <AssemblyName>03-00-Uso_de_BaseDeDatos_en_interfaz_de_usuario</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44390</IISExpressSSLPort>
+    <IISExpressSSLPort>44339</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -176,10 +176,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01-00-select_colum_in_GridView.aspx" />
-    <Content Include="02-00-insert_ps_metod.aspx" />
-    <Content Include="03-00-Delete_users.aspx" />
-    <Content Include="04-00-update_user_dataBase.aspx" />
+    <Content Include="01-00-DropDownList_en_cascada.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -235,33 +232,12 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01-00-select_colum_in_GridView.aspx.cs">
-      <DependentUpon>01-00-select_colum_in_GridView.aspx</DependentUpon>
+    <Compile Include="01-00-DropDownList_en_cascada.aspx.cs">
+      <DependentUpon>01-00-DropDownList_en_cascada.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="01-00-select_colum_in_GridView.aspx.designer.cs">
-      <DependentUpon>01-00-select_colum_in_GridView.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="02-00-insert_ps_metod.aspx.cs">
-      <DependentUpon>02-00-insert_ps_metod.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="02-00-insert_ps_metod.aspx.designer.cs">
-      <DependentUpon>02-00-insert_ps_metod.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="03-00-Delete_users.aspx.cs">
-      <DependentUpon>03-00-Delete_users.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="03-00-Delete_users.aspx.designer.cs">
-      <DependentUpon>03-00-Delete_users.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="04-00-update_user_dataBase.aspx.cs">
-      <DependentUpon>04-00-update_user_dataBase.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="04-00-update_user_dataBase.aspx.designer.cs">
-      <DependentUpon>04-00-update_user_dataBase.aspx</DependentUpon>
+    <Compile Include="01-00-DropDownList_en_cascada.aspx.designer.cs">
+      <DependentUpon>01-00-DropDownList_en_cascada.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -339,9 +315,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51217</DevelopmentServerPort>
+          <DevelopmentServerPort>55386</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44390/</IISUrl>
+          <IISUrl>https://localhost:44339/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

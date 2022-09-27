@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-00-Estado_inicial_de_la_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-00-Uso_de_BaseDeDatos_en_Aplicacion", "02-00-Uso_de_BaseDeDatos_en_Aplicacion\02-00-Uso_de_BaseDeDatos_en_Aplicacion.csproj", "{D6E51D94-4D41-4815-AD5F-599A8D251848}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-00-Uso_de_BaseDeDatos_en_interfaz_de_usuario", "03-00-Uso_de_BaseDeDatos_en_interfaz_de_usuario\03-00-Uso_de_BaseDeDatos_en_interfaz_de_usuario.csproj", "{F9218553-CF5C-410E-82C7-550654F424A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D6E51D94-4D41-4815-AD5F-599A8D251848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E51D94-4D41-4815-AD5F-599A8D251848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E51D94-4D41-4815-AD5F-599A8D251848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9218553-CF5C-410E-82C7-550654F424A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9218553-CF5C-410E-82C7-550654F424A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9218553-CF5C-410E-82C7-550654F424A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9218553-CF5C-410E-82C7-550654F424A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
